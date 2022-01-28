@@ -1,22 +1,21 @@
-# Tarefa - 5: Leia um número inteiro que representa um código de DDD para discagem interurbana. 
-# Em seguida, informe à qual cidade o DDD pertence, considerando a tabela abaixo:
+#Leia um número inteiro que representa um código de DDD para discagem interurbana. Em seguida, informe à qual cidade o DDD pertence, considerando a tabela abaixo: 
 
-puts 'Digite um número de DDD: '
+print 'Digite um número de DDD: '
 ddd = gets.chomp.to_i
 
 case ddd
 when 11
-  puts 'São Paulo'
+  puts 'sao Paulo'
 when 19
-  puts 'Campinas'
+  puts 'campinas'
 when 21
-  puts 'Rio de Janeiro'
+  puts 'rio de janeiro'
 when 32
-  puts 'Juiz de Fora'
+  puts 'juiz de fora'
 when 61
-  puts 'Brasília'
+  puts 'brasilia'
 when 71
-  puts 'Salvador'
+  puts 'salvador'
 else
   puts 'DDD não cadastrado!'
 end

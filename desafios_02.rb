@@ -1,6 +1,5 @@
-#Escreva um algoritmo que aceita uma string e retorne os caracteres na ordem inversa.
+#Crie um algoritmo que receba o nome como entrada e nós dê como saída o nome digitado e o comprimento do mesmo. 
 
 print " Digite um nome: "
 nome = gets.chomp.strip
-
 print nome.reverse
